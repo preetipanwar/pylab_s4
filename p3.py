@@ -1,4 +1,4 @@
-''' 3. To print ‘n terms of Fibonacci series using iteration '''
+'''3. To print ‘n terms of Fibonacci series using iteration'''
 
 fibonacci_list = [1, 1]                                         # placing seed values in a list
 

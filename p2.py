@@ -1,4 +1,5 @@
-# 2. To find all prime numbers within a given range.
+'''2. To find all prime numbers within a given range.'''
+
 '''
     Prime number ->
     A number is greater than 1 is called a prime number,

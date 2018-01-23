@@ -1,4 +1,4 @@
-# 1. Demonstrate the working of ‘id’ and ‘type’ functions
+'''1. Demonstrate the working of ‘id’ and ‘type’ functions'''
 
 ''' a)  id function ->
         The id() function is used rarely used, it tells about the unique identifier of an object
