@@ -15,6 +15,9 @@ print(steve_jobs[0:11])     # output: Stay hungry
 # lets slice the string steve_jobs from sixth position till end
 print(steve_jobs[5:])       # output: hungry, Stay foolish
 
+# lets slice the last three words in the string
+print(steve_jobs[-3:])      # see how can we use -ve num as well to slice from the right end instead
+
 # ------    ---------   -----------    ------- #
 # slicing works similarly on lists, just like strings
 fruits = ['apple', 'mango', 'grapes', 'guava', 'banana']
