@@ -20,6 +20,12 @@ def check_prime(num):
 
 if __name__ == '__main__':
 
-    for x in range(1, 37):
-        if check_prime(x) == True:
-            print(x)
+    print("Enter the lower limit: ")
+    lower_limit = int(input())
+
+    print("Enter the upper limit: ")
+    upper_limit = int(input())
+
+    for num in range(lower_limit, upper_limit):
+        if check_prime(num) == True:
+            print(num)
