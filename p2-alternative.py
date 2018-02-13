@@ -9,6 +9,7 @@
 lower_limit = int(input("Enter the lower limit: "))
 upper_limit = int(input("Enter the upper limit: "))
 
+# Check every number in lower to upper range if it is prime
 for num in range(lower_limit, upper_limit + 1):
     if num > 1:
         num_is_prime = True             # assuming the number is prime number
