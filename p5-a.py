@@ -7,17 +7,11 @@
     Sample String : 'string'
     Expected Result : 'stringly'
 '''
+word = input("Enter a word: ")
 
-def stringing(word):
-    ''' modifying strings '''
-    if len(word) >= 3:
+if len(word) >= 3:
         #check if the last three letters are 'ing'
         if word[-3:] == 'ing':      # if last 3 characters are 'ing'
-            return word + 'ly'
+            print(word + 'ly')
         else:
-            return word + 'ing'
-    return word                     # if word is less than 3, return word
-
-if __name__ == '__main__':
-    print(stringing('abc'))
-    print(stringing('string'))
+            print(word + 'ing')
