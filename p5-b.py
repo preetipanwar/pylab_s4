@@ -4,18 +4,15 @@
     changed to '$', except the first char itself.
 '''
 
-def modify_string(word):
-    first_char = word[0]        # set first character of our string to first_char variable
-    new_string = first_char     # add first_char to our new empty string, we will add more later
+word = input("Enter a long word: ") #arastratiosphecomyia
 
-    for pointer in word[1:]:
-        if pointer == first_char:
-            new_string += '$'
-        else:
-            new_string += pointer
+first_char = word[0]        # set first character of our string to first_char variable
+new_string = first_char     # add first_char to our new empty string, we will add more later
 
-    return new_string
+for pointer in word[1:]:
+    if pointer == first_char:
+        new_string += '$'
+    else:
+        new_string += pointer
 
-if __name__ == '__main__':
-    print(modify_string('elephant'))
-    print(modify_string('arastratiosphecomyia'))
+print(new_string)
